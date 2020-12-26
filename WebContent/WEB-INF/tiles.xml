@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software
+Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <!-- Default Main Template -->
+    <definition name="Mau01" template="/WEB-INF/templates/Trang_Chu_Home.jsp"> <!--  trang tá»ng quÃ¡t nháº¥t -->
+        <put-attribute name="tieude" value="Trang chu" type="string" />
+        <put-attribute name="dautrang" value="/WEB-INF/templates/TDA_01_Dau_Trang_JSP.jsp" />
+        <put-attribute name="cuoitrang" value="/WEB-INF/templates/TDA_02_Cuoi_Trang_JSP.jsp" />
+        <put-attribute name="thucdon" value="/WEB-INF/templates/thucdon.jsp" />
+        <put-attribute name="noidung" value="" />
+    </definition>
+ 	
+ 	<definition name="trangdau" extends="Mau01">
+        <put-attribute name="dautrang" value="/WEB-INF/templates/TDA_01_Dau_Trang_JSP.jsp" />
+    </definition>
+
+    <definition name="home" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/home.jsp" />
+    </definition>
+    
+    <definition name="Trang_Login" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/Trang_Login.jsp" />
+    </definition>
+    <!-- _______________Admin_______________ -->
+    <definition name="giaodientong" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/giaodientongadmin.jsp" />
+    </definition>
+    
+    <definition name="adminkhachhang" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/DA_04_Trang_Hien_Thi_Thong_Tin_Khach_Hang.jsp" />
+    </definition>
+    
+    <definition name="adminkhachhangCT" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/DA_04_Trang_Hien_Thi_Thong_Tin_Khach_Hang_CT.jsp" />
+    </definition>
+    
+    <definition name="themkhachhang" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/ThemKhachHang.jsp" />
+    </definition>
+    
+    <definition name="doimkadmin" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/DoiMatKhauAdmin.jsp" />
+    </definition>
+    
+    <definition name="TimKiemKH" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/TimKhachHang.jsp" />
+    </definition>
+    
+    <!-- _______________User_______________ -->
+    <definition name="ttUser" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/giaodienuser.jsp" />
+    </definition>
+    
+    <definition name="chinhsuauser" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/giaodienchinhsuauser.jsp" />
+    </definition>
+    
+    <definition name="chinhMKVao" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/DoiMKVao.jsp" />
+    </definition>
+    
+    <definition name="chinhMKWEB" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/DoiMKWEB.jsp" />
+    </definition>
+    
+    <definition name="Trang_dangxuat" extends="Mau01">
+        <put-attribute name="noidung" value="/WEB-INF/templates/Trang_dangxuat.jsp" />
+    </definition>
+    
+</tiles-definitions>
+                

@@ -1,0 +1,74 @@
+*{
+	magin : 0px;
+	padding: 0px;
+}
+div{
+	display: inline-block;
+}
+
+
+.header-area {
+	display: inline-block;
+    background: lime;
+    border: groove medium black;
+    width: 100%;
+
+}
+.header-area a.text {
+    text-align: right;
+    
+}
+
+
+.container{
+	width: 100%;
+}
+.col-md-8{
+	display: inline-block;
+}
+.user-menu1{
+	display: inline-block;
+	text-align: left;
+	float: left;
+}
+.uuser-menu2{
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+.user-menu2{
+	display: inline-block; 
+	background: red;
+	width: 100%;
+}
+.user-menu2 ul{
+	display: inline-block;
+	background: red;
+	width: 100%;
+}
+.user-menu2 ul li{
+	display: inline-block;
+	text-align: right;
+}
+.user-menu2 ul li a{
+	display: inline-block;
+	text-align: right;
+	
+}
+.user-menu2 li a i{
+    margin-right: 5px;
+    text-align: right;
+}
+
+.user-menu2 li a i.fa {
+    margin-right: 5px;
+    text-align: right;
+}
+.user-menu2 li a i.fa text {
+ 
+    text-align: right;
+}
+body{
+	display: inline-block;
+}

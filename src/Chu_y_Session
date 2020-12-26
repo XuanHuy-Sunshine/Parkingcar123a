@@ -1,0 +1,6 @@
+CHú ý về lỗi đăng xuất
+	1. đăng nhập xong, vào dc
+	2. trang đăng xuất chạy nhưng khi nhấn vào thì bị lỗi
+		--> phải check nó có đăng xuất dc rùi mới lỗi or lỗi trước khi đăng xuất
+			--> check mở tag nhưng load lại trang home xem phiên làm việt còn ko 
+			--> nếu còn thì bị lỗi trước khi login// nếu ko còn thì lỗi sau khi login --> lỗi lúc trả về file 
